@@ -1,0 +1,7 @@
+    """
+    db = sqlite3.connect("person.db")
+    cur = db.cursor()
+    cur.execute( '''INSERT INTO PERSON (name,lastname) VALUES('fateme','yazdan')''' )
+    db.commit()
+    db.close()
+    """
